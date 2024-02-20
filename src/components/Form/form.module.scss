@@ -1,0 +1,10 @@
+.placeholderError {
+  &::placeholder {
+    color: red;
+    opacity: 0.5;
+  }
+  &::-ms-input-placeholder {
+    color: red;
+    opacity: 0.5;
+  }
+}

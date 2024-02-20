@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("src/middleware",{
+
+/***/ "(middleware)/./src/middleware.ts":
+/*!***************************!*\
+  !*** ./src/middleware.ts ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   middleware: () => (/* binding */ middleware)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/web/exports/next-response */ \"(middleware)/./node_modules/.pnpm/next@14.1.0_react-dom@18.2.0_react@18.2.0/node_modules/next/dist/esm/server/web/exports/next-response.js\");\n/* harmony import */ var _public_data_partners_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../public/data/partners.json */ \"(middleware)/./public/data/partners.json\");\n\n\nfunction middleware(request) {\n    const pathname = request.nextUrl.pathname;\n    if (pathname in _public_data_partners_json__WEBPACK_IMPORTED_MODULE_1__) {\n        const redirectEntry = _public_data_partners_json__WEBPACK_IMPORTED_MODULE_1__[pathname];\n        const statusCode = redirectEntry.permanent ? 308 : 307;\n        return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__[\"default\"].redirect(redirectEntry.destination, statusCode);\n    }\n    return next_dist_server_web_exports_next_response__WEBPACK_IMPORTED_MODULE_0__[\"default\"].next();\n}\nconst config = {\n    matcher: [\n        \"/((?!api/|_next/|_static/|_vercel|[\\\\w-]+\\\\.\\\\w+).*)\"\n    ]\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKG1pZGRsZXdhcmUpLy4vc3JjL21pZGRsZXdhcmUudHMiLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUEyQztBQUVTO0FBVTdDLFNBQVNFLFdBQVdDLE9BQW9CO0lBQzdDLE1BQU1DLFdBQVdELFFBQVFFLE9BQU8sQ0FBQ0QsUUFBUTtJQUV6QyxJQUFJQSxZQUFZSCx1REFBUUEsRUFBRTtRQUN4QixNQUFNSyxnQkFBZ0JMLHVEQUFRLENBQUNHLFNBQVM7UUFDeEMsTUFBTUcsYUFBYUQsY0FBY0UsU0FBUyxHQUFHLE1BQU07UUFDbkQsT0FBT1Isa0ZBQVlBLENBQUNTLFFBQVEsQ0FBQ0gsY0FBY0ksV0FBVyxFQUFFSDtJQUMxRDtJQUNBLE9BQU9QLGtGQUFZQSxDQUFDVyxJQUFJO0FBQzFCO0FBRU8sTUFBTUMsU0FBUztJQUNwQkMsU0FBUztRQUFDO0tBQXVEO0FBQ25FLEVBQUUiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vc3JjL21pZGRsZXdhcmUudHM/ZDE5OSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBOZXh0UmVzcG9uc2UgfSBmcm9tICduZXh0L3NlcnZlcic7XG5pbXBvcnQgeyBOZXh0UmVxdWVzdCB9IGZyb20gJ25leHQvc2VydmVyJztcbmltcG9ydCBwYXJ0bmVycyBmcm9tICcuLi9wdWJsaWMvZGF0YS9wYXJ0bmVycy5qc29uJztcblxuaW50ZXJmYWNlIFBhcnRuZXIge1xuICBkZXN0aW5hdGlvbjogc3RyaW5nO1xuICBwZXJtYW5lbnQ6IGJvb2xlYW47XG59XG5pbnRlcmZhY2UgUGFydG5lcnMge1xuICBba2V5OiBzdHJpbmddOiBQYXJ0bmVyO1xufVxuXG5leHBvcnQgZnVuY3Rpb24gbWlkZGxld2FyZShyZXF1ZXN0OiBOZXh0UmVxdWVzdCkge1xuICBjb25zdCBwYXRobmFtZSA9IHJlcXVlc3QubmV4dFVybC5wYXRobmFtZTtcblxuICBpZiAocGF0aG5hbWUgaW4gcGFydG5lcnMpIHtcbiAgICBjb25zdCByZWRpcmVjdEVudHJ5ID0gcGFydG5lcnNbcGF0aG5hbWVdO1xuICAgIGNvbnN0IHN0YXR1c0NvZGUgPSByZWRpcmVjdEVudHJ5LnBlcm1hbmVudCA/IDMwOCA6IDMwNztcbiAgICByZXR1cm4gTmV4dFJlc3BvbnNlLnJlZGlyZWN0KHJlZGlyZWN0RW50cnkuZGVzdGluYXRpb24sIHN0YXR1c0NvZGUpO1xuICB9XG4gIHJldHVybiBOZXh0UmVzcG9uc2UubmV4dCgpO1xufVxuXG5leHBvcnQgY29uc3QgY29uZmlnID0ge1xuICBtYXRjaGVyOiBbJy8oKD8hYXBpL3xfbmV4dC98X3N0YXRpYy98X3ZlcmNlbHxbXFxcXHctXStcXFxcLlxcXFx3KykuKiknXSxcbn07XG4iXSwibmFtZXMiOlsiTmV4dFJlc3BvbnNlIiwicGFydG5lcnMiLCJtaWRkbGV3YXJlIiwicmVxdWVzdCIsInBhdGhuYW1lIiwibmV4dFVybCIsInJlZGlyZWN0RW50cnkiLCJzdGF0dXNDb2RlIiwicGVybWFuZW50IiwicmVkaXJlY3QiLCJkZXN0aW5hdGlvbiIsIm5leHQiLCJjb25maWciLCJtYXRjaGVyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(middleware)/./src/middleware.ts\n");
+
+/***/ })
+
+});

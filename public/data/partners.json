@@ -1,0 +1,42 @@
+{
+  "/comcast": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "comcast"
+  },
+  "/lg": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "lg"
+  },
+  "/rogers": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "rogers"
+  },
+  "/samsung": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "samsung"
+  },
+  "/shaw": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "shaw"
+  },
+  "/vizio": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "vizio"
+  },
+  "/x1": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "x1"
+  },
+  "/xumo": {
+    "destination": "/activate",
+    "permanent": true,
+    "value": "xumo"
+  }
+}
